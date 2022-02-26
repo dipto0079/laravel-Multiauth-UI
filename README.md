@@ -397,7 +397,7 @@ public function run()
     {
         Admin::create([
             'name' => 'Admin',
-            'email' => 'admin@towhid.com',
+            'email' => 'admin@email.com',
             'password' => Hash::make("123456"),
         ]);
     }
